@@ -2,9 +2,9 @@
 ;; extends
 
 (struct_item
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @AlabasterConstant)
 (enum_item
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @AlabasterConstant)
 
 (impl_item
   type: (type_identifier) @AlabasterDefinition)
