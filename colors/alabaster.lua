@@ -414,7 +414,7 @@ else
     local diffchange = "#ec8013"
     local statusline = "#c9c9c9"
     local comment = "#aa3731"
-    local dim_comment = "#909090"
+    local dim_comment = "#aaaaaa"
     local mistake = {
         fg = "#c33c33",
         bg = "#f8b28f",
