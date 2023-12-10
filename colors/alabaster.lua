@@ -70,13 +70,13 @@ if vim.o.background == "dark" then
         }
     theme = {
         Comment = { fg = comment_fg },
-        ColorColumn = { bg = "#1d1d1d" },
+        ColorColumn = { bg = "#101010" },
         Conceal = { fg = "#b0b0b0" },
         Cursor = { bg = active, fg = "#000000" },
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { fg = fg, bg = "#E2EEEE" },
-        CursorLine = { bg = "#292929" },
+        CursorLine = { bg = "#101010" },
         Directory = { fg = ansi.blue },
         DiffAdd = { bg = "#244032", fg = "#56d364" },
         DiffDelete = { bg = "#462c32", fg = "#f85149" },
