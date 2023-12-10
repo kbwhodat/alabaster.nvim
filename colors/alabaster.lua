@@ -76,7 +76,7 @@ if vim.o.background == "dark" then
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { fg = fg, bg = "#E2EEEE" },
-        CursorLine = { bg = "#1e1e1e" },
+        CursorLine = { bg = "#141414" },
         Directory = { fg = ansi.blue },
         DiffAdd = { bg = "#244032", fg = "#56d364" },
         DiffDelete = { bg = "#462c32", fg = "#f85149" },
@@ -106,7 +106,7 @@ if vim.o.background == "dark" then
         FloatBorder = floatborder,
         Pmenu = { bg = pmenu_bg },
         PmenuSel = { bg = "#354c50" },
-        PmenuSbar = { bg = "#212f31" },
+        PmenuSbar = { bg = "#212121" },
         PmenuThumb = { bg = "#47666b" },
         Question = { fg = diffadd },
         QuickFixLine = { bg = "#182325" },
