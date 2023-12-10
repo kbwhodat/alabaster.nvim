@@ -61,7 +61,7 @@ if vim.o.background == "dark" then
         yellow = "#cd974b",
     }
     local comment_fg = vim.g.alabaster_dim_comments and dim_comment or comment
-    local pmenu_bg = "#1d1d1d"
+    local pmenu_bg = "#101010"
     local float_bg = vim.g.alabaster_floatborder and bg or pmenu_bg
     local floatborder = vim.g.alabaster_floatborder and { bg = bg, fg = "#333333" }
         or {
@@ -76,7 +76,7 @@ if vim.o.background == "dark" then
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { fg = fg, bg = "#E2EEEE" },
-        CursorLine = { bg = "#101010" },
+        CursorLine = { bg = "#1e1e1eq" },
         Directory = { fg = ansi.blue },
         DiffAdd = { bg = "#244032", fg = "#56d364" },
         DiffDelete = { bg = "#462c32", fg = "#f85149" },
