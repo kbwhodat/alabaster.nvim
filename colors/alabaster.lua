@@ -38,7 +38,7 @@ if vim.o.background == "dark" then
     local diffadd = "#6abf40"
     local diffdelete = "#d2322d"
     local diffchange = "#ec8013"
-    local statusline = "#162022"
+    local statusline = "#262626"
     local comment = "#dfdf8e"
     local dim_comment = "#696969"
     local mistake = {
@@ -61,7 +61,7 @@ if vim.o.background == "dark" then
         yellow = "#cd974b",
     }
     local comment_fg = vim.g.alabaster_dim_comments and dim_comment or comment
-    local pmenu_bg = "#182325"
+    local pmenu_bg = "#1d1d1d"
     local float_bg = vim.g.alabaster_floatborder and bg or pmenu_bg
     local floatborder = vim.g.alabaster_floatborder and { bg = bg, fg = "#333333" }
         or {
@@ -70,13 +70,13 @@ if vim.o.background == "dark" then
         }
     theme = {
         Comment = { fg = comment_fg },
-        ColorColumn = { bg = "#E2EEEE" },
+        ColorColumn = { bg = "#1d1d1d" },
         Conceal = { fg = "#b0b0b0" },
         Cursor = { bg = active, fg = "#000000" },
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { fg = fg, bg = "#E2EEEE" },
-        CursorLine = { bg = "#182325" },
+        CursorLine = { bg = "#292929" },
         Directory = { fg = ansi.blue },
         DiffAdd = { bg = "#244032", fg = "#56d364" },
         DiffDelete = { bg = "#462c32", fg = "#f85149" },
@@ -86,7 +86,7 @@ if vim.o.background == "dark" then
         -- TermCursor   { }, -- cursor in a focused terminal
         TermCursorNC = { fg = bg, bg = fg },
         ErrorMsg = { fg = error, bg = mistake.bg },
-        VertSplit = { fg = "#2b3d40" },
+        VertSplit = { fg = "#262626" },
         Folded = { bg = "#182325", fg = "#7d7d7d" },
         FoldColumn = { bg = bg, fg = "#4d4d4d" },
         SignColumn = {},
