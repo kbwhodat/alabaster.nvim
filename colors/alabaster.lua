@@ -128,6 +128,7 @@ if vim.o.background == "dark" then
         WildMenu = { bg = "#354c50" },
         WinBar = { bg = bg, fg = ansi.white, bold = true },
         WinBarNC = { bg = bg, fg = "#7d7d7d" },
+        WinSeparator = {fg = "#262626"}
 
         --- SYNTAX I: TS groups link to these
         Constant = { fg = const_fg },
