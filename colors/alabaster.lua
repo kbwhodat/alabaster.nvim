@@ -503,6 +503,7 @@ else
         WildMenu = { bg = "#999999" },
         WinBar = { bg = bg, fg = ansi.black, bold = true },
         WinBarNC = { bg = bg, fg = "#7d7d7d" },
+        WinSeparator = {fg = "#999999"},
 
         --- SYNTAX I: TS groups link to these
         Constant = { fg = const_fg },
