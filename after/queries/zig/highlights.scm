@@ -8,3 +8,10 @@
 
 (FnProto
   function: (IDENTIFIER) @AlabasterDefinition)
+
+([
+  (string)
+  (multiline_string)
+] @AlabasterString
+
+(integer) @AlabasterConstant
