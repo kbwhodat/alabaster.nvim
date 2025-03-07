@@ -468,7 +468,7 @@ else
         IncSearch = { bg = active, fg = fg },
         -- Substitute   { }, -- |:substitute| replacement text highlighting
         LineNr = { fg = "#7d7c7c" },
-        CursorLineNr = { fg = ansi.blue, bold = 1 },
+        CursorLineNr = { fg = ansi.black, bold = 1 },
         MatchParen = { underline = 1, sp = active },
         -- ModeMsg      { }, -- 'showmode' message (e.g., "-- INSERT -- ")
         -- MsgArea      { }, -- Area for messages and cmdline
