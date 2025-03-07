@@ -93,7 +93,7 @@ if vim.o.background == "dark" then
         IncSearch = { bg = ansi.yellow, fg = bg },
         -- Substitute   { }, -- |:substitute| replacement text highlighting
         LineNr = { fg = "#5c5c5c" },
-        CursorLineNr = { fg = ansi.black, bold = 1 },
+        CursorLineNr = { bg = ansi.black, fg = ansi.black, bold = 1 },
         MatchParen = { underline = 1, sp = active },
         -- ModeMsg      { }, -- 'showmode' message (e.g., "-- INSERT -- ")
         -- MsgArea      { }, -- Area for messages and cmdline
