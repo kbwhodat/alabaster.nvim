@@ -447,7 +447,7 @@ else
         Comment = { fg = comment_fg },
         ColorColumn = { bg = "#E2EEEE" },
         Conceal = { fg = "#b0b0b0" },
-        Cursor = { bg = "#007acc", fg = "#bfdbfe" },
+        Cursor = { bg = "#007acc", fg = "#000000" },
         -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { fg = fg, bg = "#E2EEEE" },
